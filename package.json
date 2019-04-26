@@ -1,0 +1,17 @@
+{
+  "name": "rulai-ymwang.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  },
+  "devDependencies": {
+    "prettier": "^1.17.0",
+    "vuepress": "^0.14.11"
+  }
+}
