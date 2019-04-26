@@ -1,11 +1,12 @@
 #!/usr/bin/env sh
 
-set -e
+
 
 git add -A
 git commit -m 'Update docs.'
 git push -u origin master
 
+set -e
 npm run docs:build
 cd docs/.vuepress/dist
 echo 'yaomiao.wang' > CNAME
