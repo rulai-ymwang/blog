@@ -9,7 +9,6 @@ git push -u origin master
 set -e
 npm run docs:build
 cd docs/.vuepress/dist
-echo 'yaomiao.wang' > CNAME
 git init
 git add -A
 git commit -m 'Deploy site.'
