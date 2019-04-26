@@ -1,5 +1,5 @@
 module.exports = {
-  base: '/blog',
+  base: '/blog/',
   title: "Ninja.YM's Blog",
   markdown: {
     lineNumbers: true,
